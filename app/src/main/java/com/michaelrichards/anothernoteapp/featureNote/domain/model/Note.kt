@@ -13,8 +13,8 @@ data class Note(
     val dateCreated: Long,
     val lastEdited: Long,
     val color: Int,
-){
+) {
     companion object {
-        val noteColors = listOf(yellow, lightBlue , violet, red, orange, pink, purple, limeGreen)
+        val noteColors = listOf(yellow, lightBlue, violet, red, orange, pink, purple, limeGreen)
     }
 }
