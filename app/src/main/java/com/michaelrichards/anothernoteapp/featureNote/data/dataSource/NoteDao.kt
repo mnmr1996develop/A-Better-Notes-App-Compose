@@ -3,6 +3,7 @@ package com.michaelrichards.anothernoteapp.featureNote.data.dataSource
 import androidx.room.*
 import com.michaelrichards.anothernoteapp.featureNote.domain.model.Note
 import kotlinx.coroutines.flow.Flow
+import java.util.UUID
 
 @Dao
 interface NoteDao {
